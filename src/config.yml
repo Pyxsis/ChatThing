@@ -1,0 +1,59 @@
+
+# ▒█░░▒█ █▀▀█ █▀▀█ ░▀░ █▀▀█ █▀▀▄ █░░ █▀▀ █▀▀ 
+# ░▒█▒█░ █▄▄█ █▄▄▀ ▀█▀ █▄▄█ █▀▀▄ █░░ █▀▀ ▀▀█ 
+# ░░▀▄▀░ ▀░░▀ ▀░▀▀ ▀▀▀ ▀░░▀ ▀▀▀░ ▀▀▀ ▀▀▀ ▀▀▀ 
+# Some messages support:
+# %sendername - sender's name
+# %senderdisplay - sender's displayname
+
+
+
+# ▒█▀▀█ █▀▀ █▀▀█ █▀▄▀█ ░▀░ █▀▀ █▀▀ ░▀░ █▀▀█ █▀▀▄ █▀▀ 
+# ▒█▄▄█ █▀▀ █▄▄▀ █░▀░█ ▀█▀ ▀▀█ ▀▀█ ▀█▀ █░░█ █░░█ ▀▀█ 
+# ▒█░░░ ▀▀▀ ▀░▀▀ ▀░░░▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░▀ ▀▀▀ 
+# When a player uses a command they don't have permission for, what should they be told?
+No permission: '&cYou are lacking permissions, %sendername!'
+
+
+# ▒█▀▀█ █░░█ █▀▀█ ▀▀█▀▀ 　 ▒█▀▀█ █░░ █▀▀ █▀▀█ █▀▀█ 
+# ▒█░░░ █▀▀█ █▄▄█ ░░█░░ 　 ▒█░░░ █░░ █▀▀ █▄▄█ █▄▄▀ 
+# ▒█▄▄█ ▀░░▀ ▀░░▀ ░░▀░░ 　 ▒█▄▄█ ▀▀▀ ▀▀▀ ▀░░▀ ▀░▀▀ 
+# Do you want to use chatclear?:
+Enable chatclear: true
+
+# How many time should the below message be sent?
+Spam chat: 100
+
+# When chat is cleared, what message should be spammed? (set to " " for empty)
+Spam chat with: "&8[&4Server&8] %senderdisplay&c is clearing chat!"
+
+# When chat is cleared, what should be broadcasted?
+Chat has been cleared: "&8[&2Server&8] %senderdisplay &ahas cleared chat!"
+
+
+
+# ▒█▀▀█ █░░█ █▀▀█ ▀▀█▀▀ 　 ▒█░░░ █▀▀█ █▀▀ █░█ 
+# ▒█░░░ █▀▀█ █▄▄█ ░░█░░ 　 ▒█░░░ █░░█ █░░ █▀▄ 
+# ▒█▄▄█ ▀░░▀ ▀░░▀ ░░▀░░ 　 ▒█▄▄█ ▀▀▀▀ ▀▀▀ ▀░▀ 
+# Do you want to be able to use chatlock?
+Enable chatlock: true
+
+# When chat lock is enabled, and players cant use that command or type, what should they be told?
+Chat lock enabled error message: '&8[&4Server&8] &cYou cannot chat or use that command at this moment in time!'
+
+# When a chat lock is toggled on, what should be broadcasted?
+Chat lock enabled broadcast: '&8[&4Server&8] &cChat has been muted by &4%senderdisplay!'
+
+# When a chat lock is toggled off, what should be broadcasted?
+Chat lock disabled broadcast: '&8[&2Server&8] &aChat is no longer muted (thanks to &4%senderdisplay)!'
+
+# When chat lock is enabled, should any commands also be blocked?
+Chat lock blocked commands:
+  - '/me'
+  - '/eme'
+  - '/eaction'
+  - '/action'
+  - '/msg'
+  - '/emsg'
+  - '/tell'
+  - '/etell'

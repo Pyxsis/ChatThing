@@ -1,0 +1,29 @@
+name: ChatThing
+main: me.reparo.chatthing.ChatThing
+description: Chat thing helper thing magig
+author: Reparo
+version: 0.0.1
+
+commands:
+    chatlock:
+        usage: /<command>
+        aliases: [lockchat, mutechat, cl, lc, mc]
+        description: Lock or unlock chat
+    chatclear:
+        usage: /<command>
+        aliases: [cc, clearchat]
+        description: Clear chat
+
+permissions:
+    chatthing.chatlock:
+        description: Access to /chatlock
+        default: OP
+    chatthing.chatlock.bypass:
+        description: Access to bypass chatlock
+        default: OP
+    chatthing.chatlock.broadcasts:
+        description: See /chatlock broadcasts
+        default: OP
+    chatthing.chatclear:
+        description: Access to /chatclear
+        default: OP
