@@ -27,3 +27,6 @@ permissions:
     chatthing.chatclear:
         description: Access to /chatclear
         default: OP
+    chatthing.chatdelay.bypass:
+        description: Bypass the chat delay
+        default: OP
