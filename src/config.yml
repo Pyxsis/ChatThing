@@ -5,6 +5,8 @@
 # Some messages support:
 # %sendername - sender's name
 # %senderdisplay - sender's displayname
+# %newline - new line
+# all colour codes
 
 
 
@@ -13,6 +15,21 @@
 # ▒█░░░ ▀▀▀ ▀░▀▀ ▀░░░▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░▀ ▀▀▀ 
 # When a player uses a command they don't have permission for, what should they be told?
 No permission: '&cYou are lacking permissions, %sendername!'
+
+
+
+#▒█▀▀█ █░░█ █▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ █▀▀ █░░ █▀▀█ █░░█  (Anti Spam!)
+#▒█░░░ █▀▀█ █▄▄█ ░░█░░ 　 ▒█░▒█ █▀▀ █░░ █▄▄█ █▄▄█  (Anti Spam!)
+#▒█▄▄█ ▀░░▀ ▀░░▀ ░░▀░░ 　 ▒█▄▄▀ ▀▀▀ ▀▀▀ ▀░░▀ ▄▄▄█  (Anti Spam!)
+# Do you want to have a chat delay?
+Enable chatdelay: true
+
+# How long should you have to wait until you can send another message?
+Chat delay: 3
+
+# What message should they be given if they attempt to chat before that time is up?
+Wait before chatting: '&8&m----------------------------&r%newline&c&lPlease wait at least 3 seconds between messages%newline&8&m----------------------------'
+
 
 
 # ▒█▀▀█ █░░█ █▀▀█ ▀▀█▀▀ 　 ▒█▀▀█ █░░ █▀▀ █▀▀█ █▀▀█ 
