@@ -28,7 +28,7 @@ Enable chatdelay: true
 Chat delay: 3
 
 # What message should they be given if they attempt to chat before that time is up?
-Wait before chatting: '&8&m----------------------------&r%newline&c&lPlease wait at least 3 seconds between messages%newline&8&m----------------------------'
+Wait before chatting: '&8&m----------------------------------&r%newline&c&lPlease wait at least 3 seconds between messages%newline&8&m-----------------------------------'
 
 
 
